@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    background-color: rgba(13, 37, 65, 1);
+    color: rgba(108, 152, 183, 1);
+    text-align: center;
+    margin-top: 0;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin-bottom: 0;
+}
+
+/* falta editar o posicionamento */
+header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 85px;
+}
+
+.seletores-superiores {
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    position: relative;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 25px;
+}
+
+.hookers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    position: absolute;
+    right: 10px;
+    top: 25%
+}
+
+.hookers li {
+    margin-left: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    /* Adicione estilos adicionais para as células conforme necessário */
+}
+
+th {
+    background-color: rgba(13, 37, 65, 1);
+    color: white;
+}
+
+th:first-child {
+    background-color: rgba(124, 128, 88, 1);
+    border-right: 30px solid white;
+}
+
+td:first-child {
+    border-right: 30px solid rgba(127, 223, 126, 1);
+}
+
+#cta-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 37, 65, 1);
+    color: white;
+    font-size: 42;
+    height: 40px;
+    margin-top: 40px;
+}
+
+#cta-home a {
+    color: rgba(141, 205, 118, 1);
+    margin: 0 10px;
+}
+
+footer {
+    display: flex;
+    background-color: rgba(217, 217, 217, 1);
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+footer p {
+    margin: 0 0 0 10px;
+    max-height: 4em;
+
+
+}
+
+#barra-separadora {
+    font-size: 40px;
+    margin-left: 20%;
+    margin-bottom: 3px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 40px;
+
+
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    margin: 5px 10px 0 10px;
+}
+
+ul img {
+    width: 80%;
+    height: 80%;
+    padding-top: 10%;
+
+    right: 10px;
+}
+
+footer p a {
+    height: 10px;
+}
+
+footer p a img {
+    vertical-align: middle;
+    width: 5%;
+    margin-left: 10px;
+    height: auto;
+}
