@@ -20,6 +20,7 @@ header h1 {
 
 header h2 {
     margin-bottom: 0;
+    color: rgba(108, 152, 183, 1);
 }
 
 /* falta editar o posicionamento */
@@ -220,4 +221,68 @@ footer p a img {
     width: 5%;
     margin-left: 10px;
     height: auto;
+}
+
+article img {
+    height: 200px;
+    width: 200px
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 100% da altura da viewport */
+}
+
+
+.produtos {
+    margin-top: 600px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    max-width: 800px;
+
+    width: 100%;
+
+}
+
+article {
+    width: 40%;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
