@@ -72,14 +72,18 @@ td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
+    width: 50%;
 }
 
 th {
     background-color: #f2f2f2;
 }
 
-td {
-    /* Adicione estilos adicionais para as células conforme necessário */
+.img_portfolio {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
 }
 
 th {
