@@ -34,37 +34,39 @@
     <div class="main-content">
         <section id="quem-somos">
             <h3>Quem Somos:</h3>
-            <p>Bem-vindo à Clean Saúde Ambiental - Especialistas em Ambientes Livres de Pragas e Limpeza Eficiente
+            <p> Bem-vindo à Clean Saúde Ambiental - Especialistas em Ambientes Livres de Pragas e Limpeza Eficiente</p>
 
-                Somos uma empresa especializada em dedetização e sanitização, comprometidos em oferecer serviços de alta
+            <p> Somos uma empresa especializada em dedetização e sanitização, comprometidos em oferecer serviços de alta
                 qualidade para garantir ambientes livres de pragas e com a máxima higiene. Com expertise reconhecida no
                 mercado, focamos em soluções personalizadas para atender às necessidades específicas de cada cliente.
+            </p>
 
-                Nossa especialidade é a erradicação das temidas baratas francesinhas, utilizando métodos eficazes e
+            <p> Nossa especialidade é a erradicação das temidas baratas francesinhas, utilizando métodos eficazes e
                 seguros para eliminar essas pragas indesejadas, garantindo a tranquilidade e a saúde no seu ambiente
-                residencial ou comercial.
+                residencial ou comercial.</p>
 
 
 
 
-                Além disso, oferecemos serviços de limpeza de estofados com tecnologia de lavagem a seco, preservando a
+            <p> Além disso, oferecemos serviços de limpeza de estofados com tecnologia de lavagem a seco, preservando a
                 qualidade dos materiais e removendo sujeiras profundas, ácaros e bactérias, proporcionando um ambiente
-                limpo e livre de agentes nocivos à saúde.
+                limpo e livre de agentes nocivos à saúde.</p>
 
-                No combate aos cupins, nossa equipe altamente qualificada utiliza métodos avançados para eliminar e
+            <p> No combate aos cupins, nossa equipe altamente qualificada utiliza métodos avançados para eliminar e
                 prevenir infestações, protegendo a estrutura dos seus espaços contra danos causados por essas pragas.
+            </p>
 
-                Valorizamos a satisfação do cliente e entregamos resultados por meio de um trabalho sério, pautado na
+            <p> Valorizamos a satisfação do cliente e entregamos resultados por meio de um trabalho sério, pautado na
                 transparência, compromisso e eficiência. Nosso objetivo principal é proporcionar a você um ambiente
-                saudável e livre de preocupações com pragas e sujeiras.
+                saudável e livre de preocupações com pragas e sujeiras.</p>
 
-                Conte conosco para cuidar do seu espaço, pois sua tranquilidade é nossa prioridade. Entre em contato
+            <p> Conte conosco para cuidar do seu espaço, pois sua tranquilidade é nossa prioridade. Entre em contato
                 conosco para conhecer nossos serviços e deixe-nos garantir um ambiente limpo, seguro e livre de pragas
-                para você.
+                para você.</p>
 
-                Estamos prontos para atender você com excelência!
+            <p> Estamos prontos para atender você com excelência!</p>
 
-                Atenciosamente,
+            <p>Atenciosamente,<br>
 
                 Equipe Clean Saúde Ambiental.
             </p>
@@ -86,8 +88,16 @@
                         <td><img class="img_portfolio" src="util/fotos_materiais/sofa_limpo.jpg" alt="sofa limpo"></td>
                     </tr>
                     <tr>
-                        <td>===</td>
-                        <td>===</td>
+                        <td><img class="img_portfolio_pequena" src="util/fotos_materiais/sofa1_antes.png"
+                                alt="sofa 1. Antes do serviço"></td>
+                        <td><img class="img_portfolio_pequena" src="util/fotos_materiais/sofa1_depois.png"
+                                alt="sofa 1. Depois do serviço"></td>
+                    </tr>
+                    <tr>
+                        <td><img class="img_portfolio_pequena" src="util/fotos_materiais/sofa2_antes.png"
+                                alt="sofa 2. Antes do serviço"></td>
+                        <td><img class="img_portfolio_pequena" src="util/fotos_materiais/sofa2_depois.png"
+                                alt="sofa 2. Depois do serviço"></td>
                     </tr>
                 </tbody>
             </table>
@@ -108,13 +118,34 @@
         <ul>
             <li><a href="#"><img src="util/logo youTube-220220px.png" alt="logo do YouTube"></a></li>
             <li><a href="#"><img src="util/logo face-220220px.png" alt="logo do FaceBook"></a></li>
-            <li><a href="#"><img src="util/logo-instagram.png" alt="logo do Instagram"></a></li>
+            <li><a href="https://www.instagram.com/cleansaudeambiental/" target="_blank"><img
+                        src="util/logo-instagram.png" alt="logo do Instagram"></a></li>
         </ul>
     </footer>
 
     <div>
 
     </div>
+
+    <script>
+        // Adiciona um evento de clique para cada link da navegação
+        document.querySelectorAll('.hookers a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Obtém o ID da seção alvo a partir do href do link
+                const targetId = this.getAttribute('href').substring(1);
+
+                // Obtém a seção alvo pelo ID
+                const targetSection = document.getElementById(targetId);
+
+                // Faz a rolagem suave até a seção alvo
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
