@@ -68,6 +68,16 @@ table {
     margin-top: 10px;
 }
 
+@media(max-width:400px) {
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+}
+
 th,
 td {
     border: 1px solid #ddd;
@@ -137,6 +147,20 @@ footer {
 
 }
 
+
+@media(max-width:400px) {
+    footer {
+        display: flex;
+        background-color: rgba(217, 217, 217, 1);
+        justify-content: flex-end;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        align-items: center;
+        height: 100px;
+    }
+}
+
 footer p {
     margin: 0 0 0 10px;
     max-height: 4em;
@@ -149,6 +173,15 @@ footer p {
     margin-left: 20%;
     margin-bottom: 3px;
     color: rgba(0, 0, 0, 0.4);
+}
+
+@media(max-width:400px) {
+    #barra-separadora {
+        font-size: 70px;
+        margin-left: 20%;
+        margin-bottom: 3px;
+        color: rgba(0, 0, 0, 0.4);
+    }
 }
 
 footer ul {
